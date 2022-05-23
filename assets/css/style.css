@@ -305,7 +305,7 @@ a:hover {
 
         /** Sliders options **/
 
-        .merrickgold-section__slider {
+        .instinct-gold__slider {
             overflow: hidden;
             display: -webkit-box;
             display: -ms-flexbox;
@@ -318,14 +318,14 @@ a:hover {
             margin-bottom: 100px;
         }
 
-        .merrickgold-section__slides {
+        .instinct-gold__slides {
             width: 200%;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
         }
 
-        .merrickgold-section__slider input {
+        .instinct-gold__slider input {
             display: none;
         }
 
