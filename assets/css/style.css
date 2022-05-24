@@ -250,9 +250,6 @@ a:hover {
     margin: 0 auto;
     display: block !important;
 }
-.custom-container .citrus-tab{
-    width : 100% !important;
-}
 
 .all-overflow{
     overflow: hidden !important;
@@ -1223,7 +1220,7 @@ p {
 
 .citrus-tab__content .splide__track {
     width: 220%;
-    overflow-x: auto;
+    overflow: hidden;
 }
 
 .citrus-tab__content .splide__track::-webkit-scrollbar {
@@ -1238,6 +1235,7 @@ p {
 .citrus-tab__content .splide__list {
     display: flex;
     width: 100%;
+    overflow-x: auto;
 }
 
 .citrus-tab__content .splide__slide {
@@ -1277,7 +1275,7 @@ p {
     display: none;
 }
 
-        /*cat food tabs*/
+/*cat food tabs*/
 .citrus21_show {
   display: block;
 }
@@ -1402,6 +1400,18 @@ p {
     .cat-dog-mobile-view{
         display: block;
     }
+    .mobile-view .range-main-content-flex .splide__track{
+        width: 200%;
+        overflow: hidden;
+    }
+    .mobile-view .range-main-content-flex .splide__track .splide__list{
+        width: 100%;
+        overflow-x: auto;
+        display: flex;
+    }
+    .mobile-view .range-main-content-flex .splide__track .splide__list .range-main-single{
+        flex: 0 0 50%;
+    }
     .cat-dog-desktop-view{
         display: none;
     }
@@ -1459,6 +1469,13 @@ p {
     }
     .tba-product .splide__arrows {
         display: none;
+    }
+
+    /*cat food tabs*/
+    .citrus21_show {
+        display: block;
+        width: 150%;
+        overflow: hidden;
     }
 
     .upgrade-video{
