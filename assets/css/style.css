@@ -978,12 +978,20 @@ p {
           justify-content: center;
 }
 
-.tab__list_top_img_btn .tab__item.is--active .active{
+.tab__list_top_img_btn .tab__item.MiCS_tab_item_active_citrus .active{
     display: block;
 }
-.tab__list_top_img_btn .tab__item.is--active .normal{
+.tab__list_top_img_btn .tab__item.MiCS_tab_item_active_citrus .normal{
     display: none;
 }
+
+.tab__list_top_img_btn .tab__item.MiCS_cat_food_tab_citrus21_active_citrus21 .active{
+    display: block;
+}
+.tab__list_top_img_btn .tab__item.MiCS_cat_food_tab_citrus21_active_citrus21 .normal{
+    display: none;
+}
+
 
 .tab__list_top_img_btn .tab__item .active{
     display: none;
@@ -1079,9 +1087,9 @@ p {
   background: #ffffff;
   border-radius: 0 10px 10px;
 }
-.tab__content-item {
+/*.tab__content-item {
   display: none;
-}
+}*/
 .tab__content-item.is--active {
   display: block;
 }
@@ -1213,6 +1221,68 @@ p {
 }
 
 
+.citrus-tab__content .splide__track {
+    width: 220%;
+    overflow-x: auto;
+}
+
+.citrus-tab__content .splide__track::-webkit-scrollbar {
+  display: none;
+}
+
+.citrus-tab__content .splide__track {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+.citrus-tab__content .splide__list {
+    display: flex;
+    width: 100%;
+}
+
+.citrus-tab__content .splide__slide {
+    flex: 0 0 25%;
+}
+
+
+
+
+
+
+
+
+.MiCS_cat_best_tab_item_active_citrus {
+    background: #00205B;
+    color: #fff !important;
+}
+
+
+.filterBestDogDiv_citrus {
+    float: left;
+    display: none;
+}
+
+ .filterBestCatDiv_citrus {
+    float: left;
+    display: none;
+}
+
+.filterDogFoodDiv_citrus {
+    float: left;
+    display: none;
+}
+
+ .filterCatFoodDiv_citrus21 {
+    float: left;
+    display: none;
+}
+
+        /*cat food tabs*/
+.citrus21_show {
+  display: block;
+}
+
+
 
 
 /**************************************/
@@ -1303,7 +1373,12 @@ p {
     .find-food-area {
         height: 1150px !important;
     }
-    
+    .citrus-tab__content .splide__slide {
+        flex: 0 0 33%;
+    }
+    .citrus-tab__list.tab__list_top_img_btn {
+        margin-bottom: 30px;
+    }
 
 }
 
@@ -1366,10 +1441,15 @@ p {
       -ms-overflow-style: none; 
       scrollbar-width: none;  
     } 
-    .citrus-tab__list.tab__list_top_img_btn .tab__item {
+   /* .citrus-tab__list.tab__list_top_img_btn .tab__item {
         -webkit-box-flex: 0;
             -ms-flex: 0 0 57%;
                 flex: 0 0 57%;
+    }*/
+     .citrus-tab__list.tab__list_top_img_btn .tab__item {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 30%;
+                flex: 0 0 30%;
     }
     .tba-product .pro-prv.slick-arrow {
         display: none !important;
@@ -1398,6 +1478,9 @@ p {
 
 
 @media all and (max-width: 575px) {
+    .citrus-tab__content .splide__slide {
+    flex: 0 0 50%;
+}
     .range-main-single {
     -webkit-box-flex: 0; 
     -ms-flex: 0 0 100%;
