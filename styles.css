@@ -1592,10 +1592,17 @@ p {
     }
     .citrus-instinct-pov .citrus-instinct-pov-carousel .citrus-instinct-pov-carousel__inner--item .content-wrapper__title{
         padding: 10px 0px;
+        font-size: 28px;
+        line-height: 30px;
     }
     .citrus-instinct-pov .citrus-instinct-pov-carousel .citrus-instinct-pov-carousel__inner--item .content-wrapper__sub-title{
         max-width: 60%;
         padding-bottom: 10px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .citrus-instinct-pov .citrus-instinct-pov-carousel .citrus-instinct-pov-carousel__inner--item .content-wrapper__logo {
+        padding: 10px 0 0;
     }
 
 }
@@ -1683,15 +1690,21 @@ p {
         
     /* Refresh POV */
     .citrus-instinct-pov .citrus-instinct-pov-carousel .citrus-instinct-pov-carousel__inner--item {
-        padding: 10px 0;
+        padding: 0;
     }
     .citrus-instinct-pov .citrus-instinct-pov-carousel .citrus-instinct-pov-carousel__inner--item .content-wrapper__title{
-        padding: 10px 0px;
-        line-height: 36px;
+        padding: 10px 0 0;
+        font-size: 24px;
+        line-height: 26px;
     }
     .citrus-instinct-pov .citrus-instinct-pov-carousel .citrus-instinct-pov-carousel__inner--item .content-wrapper__sub-title{
-        max-width: 60%;
+        max-width: 70%;
         padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .citrus-instinct-pov .citrus-instinct-pov-carousel .citrus-instinct-pov-carousel__inner--item .content-wrapper__logo {
+        padding: 10px 0 0;
     }
     
 
