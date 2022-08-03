@@ -1185,6 +1185,10 @@ p {
     margin-top: -115px;
 }*/
 
+.video-container .upgrade-main-flex{
+       flex-wrap: nowrap;
+}
+
 .upgrade-video {
     position: relative;
     margin-top: -115px;
@@ -1623,6 +1627,10 @@ p {
    /* .upgrade-video {
         padding-top: 55%;
     }*/
+
+    .video-container .upgrade-main-flex{
+        flex-wrap: wrap;
+    }
     .upgrade-video {
         -webkit-box-flex: 0;
             -ms-flex: 0 0 100%;
@@ -1791,6 +1799,10 @@ p {
     }
     .tba-product .splide__arrows {
         display: none;
+    }
+
+    .video-container .upgrade-main-flex{
+        flex-wrap: wrap;
     }
 
     .upgrade-video{
