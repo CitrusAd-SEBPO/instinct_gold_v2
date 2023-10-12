@@ -977,13 +977,12 @@
     .tba-product .splide__arrow {
         -ms-flex-align: center;
         align-items: center;
-        background: transparent;
+        background: #fff;
         border: 1px solid #122359;
         border-radius: 50%;
         cursor: pointer;
         display: -ms-flexbox;
         display: flex;
-        height: 3.2em;
         -ms-flex-pack: center;
         justify-content: center;
         opacity: 1;
@@ -991,8 +990,13 @@
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        width: 3.2em;
+        width: 2.2em;
+        height: 2.2em;
         z-index: 1;
+    }
+
+    .splide__arrow:disabled {
+        opacity: 0;
     }
 
     .tba-product .splide__arrow--next {
@@ -1098,6 +1102,22 @@
         align-items: center;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        visibility: visible;
+    }
+
+    .range-main-content-flex .splide__track {
+        overflow-x: auto;
+    }
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .range-main-content-flex .splide__track::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .range-main-content-flex .splide__track {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 
     .range-main-single {
@@ -1267,7 +1287,7 @@
         display: -ms-flexbox;
         display: flex;
         -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
@@ -1860,6 +1880,10 @@
             padding: 7px 0 0;
         }
 
+        .upgrade-main-flex{
+            flex-wrap: wrap;
+        }
+
 
     }
 
@@ -1918,6 +1942,11 @@
         .citrus-tab__content {
             /* overflow-x: auto;*/
             padding-right: 0;
+        }
+
+        
+        .citrus-tab__content .tab__content-item .tab-product-inner-item {
+            max-width: 65%;
         }
 
         .citrus-tab__list.tab__list_top_btn {
@@ -2005,6 +2034,15 @@
             color: #001952;
             border-radius: 0;
             width: 215px;
+        }
+
+        /* Range section */
+        .range-main-content-flex .range-main-single {
+            max-width: 75%;
+        }
+
+        .upgrade-main-flex{
+            flex-wrap: wrap;
         }
 
     }
