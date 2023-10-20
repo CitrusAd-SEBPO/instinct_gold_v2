@@ -15,13 +15,13 @@
 @font-face {
   font-family: PetcoCircularTT-Regular;
   src: url(assets/fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
-    url(Assets/fonts/PetcoCircularTT-Regular.woff) format("woff");
+    url(assets/fonts/PetcoCircularTT-Regular.woff) format("woff");
 }
 
 @font-face {
   font-family: PetcoCircularTT-Bold;
   src: url(assets/fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
-    url(Assets/fonts/PetcoCircularTT-Bold.woff) format("woff");
+    url(assets/fonts/PetcoCircularTT-Bold.woff) format("woff");
 }
 
 /*Default css*/
